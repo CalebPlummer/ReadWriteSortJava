@@ -6,9 +6,6 @@
 package readwritesort;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 
 /**
@@ -50,7 +47,7 @@ public class Methods {
         {
             for(String str: names) 
             {
-                writer.write(str + ", ");
+                writer.write(str + "\n");
             }
             
         }
